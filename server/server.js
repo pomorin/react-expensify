@@ -11,4 +11,5 @@ app.get('*', (req, res) => {
 
 const server = app.listen(port, () => {
     console.log(new Date().toISOString() + ": server started on port 3000");
+    console.log('test');
 });
