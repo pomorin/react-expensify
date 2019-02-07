@@ -84,7 +84,6 @@ export default class ExpenseForm extends React.Component {
             value={this.state.amount}
             onChange={this.onAmountChange}
           />
-          <p>{JSON.stringify(this.state.createdAt)}</p>
           <SingleDatePicker
             date={this.state.createdAt}
             onDateChange={this.onDateChange}
