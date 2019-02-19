@@ -99,7 +99,7 @@ export default class ExpenseForm extends React.Component {
             onChange={this.onChange}
           >
           </textarea>
-          <button>Add Expense</button>
+          <button>{this.props.expense ? 'Edit Expense' : 'Add Expense'}</button>
         </form>
       </div>
     )
